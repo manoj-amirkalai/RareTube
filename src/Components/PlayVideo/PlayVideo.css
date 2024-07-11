@@ -131,6 +131,8 @@
 @media (max-width: 900px) {
   .play-video {
     flex-basis: 100%;
+    
+    width: 50%;
   }
 
   .play-video iframe {
@@ -147,4 +149,6 @@
     margin-right: 15px;
     margin-top: 15px;
   }
+  .comment {
+  overflow: hidden;}
 }
